@@ -1,5 +1,6 @@
-# Frontend Internship 2023
+# REACT Computer Science CMU
 this project created by Vite
+
 
 ## Prerequire
 node.js 16.15
