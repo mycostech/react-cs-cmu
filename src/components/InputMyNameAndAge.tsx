@@ -14,8 +14,6 @@ function InputMyNameAndAge() {
     const onChangeNameCB = (e: React.ChangeEvent<HTMLInputElement>) => {        
         const nameValue = e.target.value
 
-        console.log(nameValue)
-
         setName(nameValue)
     }
 
