@@ -1,11 +1,10 @@
 import MatApp from "./components/MatApp"
-import ShowUserJSON from "./components/ShowUserJson"
-import user from './data/user.json'
+import ShowFetchUser from "./components/ShowFetchUser"
 
 function App() {
     return (
        <MatApp>
-            <ShowUserJSON user={user} />
+        <ShowFetchUser />
        </MatApp>
     )
 }
