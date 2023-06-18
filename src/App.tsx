@@ -1,15 +1,12 @@
-
+import MatApp from "./components/MatApp"
+import ShowUserJSON from "./components/ShowUserJson"
+import user from './data/user.json'
 
 function App() {
     return (
-        <div
-            style={{
-                padding: 50,
-                textAlign: 'center',
-            }}
-        >
-            <h1>Start Here</h1>
-        </div>
+       <MatApp>
+            <ShowUserJSON user={user} />
+       </MatApp>
     )
 }
 
