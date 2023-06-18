@@ -11,7 +11,7 @@ interface ICar {
     year: number
 }
 
-interface IUser {
+export interface IUser {
     name: string
     age: number
     isDead: boolean
